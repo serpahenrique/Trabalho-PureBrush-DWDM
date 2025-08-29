@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #FFFBF2;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.menu_lista{
+    display: flex;
+    list-style: none;
+    gap: 7rem;
+}
+
+.lista{
+    text-decoration: none;
+    color: black;
+}
+
+.lista_d{
+    text-decoration: none;
+    color: white;
+    background-color: #104B4F;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    background-color: #F0EBE5;
+   
+}
+
+.topo_imagem{
+     width: 750px;
+      height: 400px;
+}
+
+.topo_texto{
+    padding: 1rem 4rem 1rem 4rem;
+  
+
+}
+
+.topo_descricao{
+    margin-top: 15px;
+}
+
+.btn{
+    background-color: #104B4F;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.meio{
+    display: flex;
+    align-items: center;
+    background-color: #F0EBE5;
+
+}
+
+.meio_texto{
+    padding: 1rem 4rem 1rem 4rem;
+}   
+
+.meio_descricao{
+    margin-top: 15px;
+}
+
+.meio_imagem{
+    width: 1030px;
+    height: 400px;
+}
+
+.fim{
+    background-color: #FFFBF2;
+    
+    
+}
+
+.fim_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 4rem 5rem 4rem;
+}
+
+.fim_titulo{
+    
+}
+
+.fim_descricao{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 30px;
+}
+
+.card{
+    
+   
+}
+
+.insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 4rem 5rem 4rem;
+}
+
+@media screen and (max-width:768px){
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 90px;
+}
+
+.titulo_cabe{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu_lista{
+    display: none;
+}
+
+.lista{
+   display: none;
+}
+
+.lista_d{
+ display: none;
+}
+
+.topo{
+       display: flex;
+        flex-direction: column;
+}
+
+.topo_imagem{
+    width:360px ;
+    height:280px;
+}
+
+.topo_texto{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_topo{
+    text-align: center;
+}
+
+.topo_descricao{
+   text-align: center;
+}
+
+.btn{
+    
+}
+
+.meio{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.meio_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.titulo_meio{
+    text-align: center;
+}
+
+.meio_descricao{
+    text-align: center;
+}
+
+.meio_imagem{
+    width:360px ;
+    height:260px;
+    margin-top: 20px;
+}
+
+.fim{
+   
+}
+
+.fim_texto{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.fim_titulo{
+    text-align: center;
+}
+
+.fim_descricao{
+    text-align: center;
+}
+
+.cards{
+       display: flex;
+       flex-direction: column;
+}
+
+.card{
+   width: 250px;
+   height: 230px;
+
+}
+
+.insta{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+}
+
+
