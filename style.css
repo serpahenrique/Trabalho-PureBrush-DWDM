@@ -34,7 +34,7 @@ html{
 .lista_d{
     text-decoration: none;
     color: white;
-    background-color: #104B4F;
+    background-color: #730bfa;
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
@@ -62,7 +62,7 @@ html{
 }
 
 .btn{
-    background-color: #104B4F;
+    background-color: #6d0deb;
     padding: 20px;
     color: white;
     border-radius: 5px;
