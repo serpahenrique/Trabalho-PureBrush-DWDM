@@ -15,7 +15,7 @@ html{
     display: flex;
     align-items: center;
     padding: 20px 0;
-    background-color: #FFFBF2;
+    background-color: #FFF5E0;
     justify-content: space-between;
     padding: 1rem 3rem 1rem 3rem;
 }
@@ -62,7 +62,7 @@ html{
 }
 
 .btn{
-    background-color: #1B6F73; 
+    background-color: #104B4F;
     padding: 20px;
     color: white;
     border-radius: 5px;
